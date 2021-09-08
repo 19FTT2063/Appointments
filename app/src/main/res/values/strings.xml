@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Appointments</string>
+
+    <string-array name="Branch">
+        <item>--</item>
+        <item>RIPAS</item>
+        <item>Suri Seri Begawan</item>
+        <item>Pengiran Isteri Hajah Mariam</item>
+        <item>Muhtadee Billah</item>
+    </string-array>
+
+    <string-array name="Department">
+        <item>--</item>
+        <item>Woman and Children Department</item>
+        <item>Dental Department</item>
+        <item>Psychiatry Department</item>
+        <item>Radialogy Department</item>
+        <item>Orthopedic Department</item>
+
+    </string-array>
+
+</resources>

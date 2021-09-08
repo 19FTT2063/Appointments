@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/payment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentPage">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/cardnumber"
+            android:hint="Enter card number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="50"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/expiry"
+            android:hint="Expiry Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="50"
+            android:inputType="date"/>
+
+        <EditText
+            android:id="@+id/cvc"
+            android:hint="CVC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+
+
+        <EditText
+            android:id="@+id/edtAmount"
+            android:hint="Enter Amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnPayNow"
+            android:text="Pay Now"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
